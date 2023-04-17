@@ -13,7 +13,7 @@ path_file_log=""$CURRENT_DIR"/"$name_file_log""
 path_find_file='/'
 file_size='+10M'
 head='-500'
-string_remove_grep='grep -v \"/var/lib/mysql|postgresql\"'
+string_remove_grep='grep -v \"/var/lib/mysql|/srv/minio|postgresql\"'
 
 function _remove_log_find_file() {
 
